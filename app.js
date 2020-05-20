@@ -2,7 +2,7 @@
 
 
 // to store secret keys and passwords and api
-require("dotenv").config();
+// require("dotenv").config();
 ////////////////////////////////////////////
 
 
