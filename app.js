@@ -51,7 +51,7 @@ app.use(passport.initialize());
 // Using passport to set up the session
 app.use(passport.session());
 
-mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-amrehan:Rehan@123@cluster0-xc63c.mongodb.net/notesDB", {useNewUrlParser: true, useUnifiedTopology: true});
 //this line is to no longer have the deprecation warning///
 mongoose.set('useCreateIndex', true);
 //////////////////////////////////////////////////////////
